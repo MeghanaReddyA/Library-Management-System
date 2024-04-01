@@ -1,0 +1,64 @@
+/* CSS */
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/dynamic-webapps/library-management-bg.png');
+    font-family: 'roboto';
+    text-align: center;
+    padding-top: 15px;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#searchInput {
+    height: 45px;
+    padding-left: 13px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: 250px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.result-container{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: white;
+    height: 100vh;
+}
+
+.results-status{
+    color: #323f4b;
+    font-size: 33px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.result-book-card{
+    border-style: solid;
+    width: 200px;
+    height: 250px;
+    padding-top: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #cbd2d9;
+    background-color: #f5f7fa;
+}
+.result-book-img{
+    height: 185px;
+    width: 150px;
+}
+.result-book-author-name{
+    color: #323f4b;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.result-book-card:hover{
+    background-color: rgb(252, 248, 248);
+}
